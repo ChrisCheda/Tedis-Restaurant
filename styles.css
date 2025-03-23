@@ -1,0 +1,125 @@
+.header {
+  color: #d62828;
+  font-weight: 500;
+  font-family: "Dancing Script", cursive;
+  font-size: 70px;
+  text-align: center;
+}
+
+body {
+  font-family: "Georgia", serif;
+  background-color: #1b1b1b;
+}
+
+p {
+  color: #f4e7d3;
+  font-size: 25px;
+}
+
+li {
+  color: #e76f51;
+  font-size: 30px;
+  list-style: none;
+}
+
+.container {
+  background-color: #3d405b;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 40px;
+  color: #f77f00;
+  text-align: center;
+}
+
+.col-1,
+.col-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.col-1 p,
+.col-2 p {
+  margin-right: 20px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* .col-1 img, .col-2 img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  } */
+
+img {
+  width: 400px;
+  height: 400px;
+}
+/* .seafood, .icecream, .choco {
+    width: 180px;
+    height: auto;
+    border-radius: 8px;
+  } */
+
+img {
+  color: #e63946;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+div img {
+  transition: ease-out;
+}
+
+img:hover {
+  color: #d62828;
+  text-decoration: none;
+}
+
+.tapas {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px;
+  padding: 25px;
+}
+
+.jamon {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px;
+  padding: 25px;
+}
+
+.paella {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px;
+  padding: 25px;
+}
+
+.gazpacho {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px;
+  padding: 25px;
+}
+
+.flan {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px;
+  padding: 25px;
+}
+
+.churros {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px;
+  padding: 25px;
+}
