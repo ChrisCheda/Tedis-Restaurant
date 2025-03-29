@@ -123,3 +123,8 @@ img:hover {
   margin: 25px;
   padding: 25px;
 }
+
+.navbar ul li{
+  display: inline;
+  font-family: "Roboto", sans-serif;
+}
